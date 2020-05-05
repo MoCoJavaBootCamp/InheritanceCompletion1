@@ -13,6 +13,12 @@ public class Product {
         price = 0;
     }
 
+    public Product(String code, String description, double price) {
+        this.code = code;
+        this.description = description;
+        this.price = price;
+    }
+
     // Get and set accessors for the code, description, and price instance variables
 
     @Override
